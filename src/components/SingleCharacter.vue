@@ -5,8 +5,7 @@
 </script>
 
 <template>
-    <div>SONO SingleCharacter E STO FUNZIONANDO</div>
-
+    
     <div>
         <img class="" src="" alt="">
         <h4>nome personaggio</h4> 

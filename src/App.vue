@@ -24,8 +24,8 @@ export default {
       axios
         .get(store.apiURL)
         .then ((res => {
-          console.log (res.data);
-          store.CharactersList = res.data;
+          console.log (res.data.data);
+          store.CharactersList = res.data.data;
         }))
         .catch((err) => {
           console.log ("Errori", err);
