@@ -26,10 +26,6 @@ import {store} from '../store.js'
             <div v-for="card in store.CharactersList" :key="card.id"  class="col">
                 <SingleCharacter />
             </div>
-           
-           
-           
-
         </div>
 
     </section>

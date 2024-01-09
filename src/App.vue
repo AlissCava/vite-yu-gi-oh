@@ -24,18 +24,18 @@ export default {
       axios
         .get(store.apiURL)
         .then ((res => {
-          // console.log (res.data.results);
-          store.CharactersList = res.data.results;
+          console.log (res.data);
+          store.CharactersList = res.data;
         }))
         .catch((err) => {
           console.log ("Errori", err);
         });
-      }
+     }
   },
   created() {
     this.getCharacters();
   }
-}
+};
 
 </script>
 
